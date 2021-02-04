@@ -1,16 +1,22 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Navbar = () => {
     return (
         <Container>
-            <h1>I'm a nav bar</h1>
+            <h1>I'm a Navbar</h1>
         </Container>
-    )
+    );
+};
 
-}
-
-
+const Container = styled.div`
+  width: 100vw;
+  height: 50px;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 
 export default Navbar;
